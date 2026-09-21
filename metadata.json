@@ -1,8 +1,0 @@
-{
-  "name": "Remix Zezo Shop",
-  "description": "Canada\u0027s premier fashion destination. Shop Men\u0027s, Women\u0027s, and Kids\u0027 collections with Cash on Delivery across Canada and dynamic provincial shipping rates.",
-  "requestFramePermissions": [],
-  "majorCapabilities": [
-    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
-  ]
-}
