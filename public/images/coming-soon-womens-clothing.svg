@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000">
+  <defs>
+    <linearGradient id="bg-women" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1c1917"/>
+      <stop offset="50%" stop-color="#292524"/>
+      <stop offset="100%" stop-color="#0c0a09"/>
+    </linearGradient>
+    <radialGradient id="glow-women" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#e11d48" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid-pattern-women" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(255,255,255,0.03)" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bg-women)"/>
+  <rect width="800" height="1000" fill="url(#grid-pattern-women)"/>
+  <circle cx="400" cy="400" r="340" fill="url(#glow-women)"/>
+  <rect x="30" y="30" width="740" height="940" rx="20" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="1.5" stroke-dasharray="8 8"/>
+  <g transform="translate(400, 390)" text-anchor="middle">
+    <!-- Category pill -->
+    <rect x="-120" y="-120" width="240" height="38" rx="19" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.18)" stroke-width="1.5"/>
+    <text y="-96" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" letter-spacing="3" fill="#fda4af" text-transform="uppercase">WOMEN'S CLOTHING</text>
+    
+    <!-- Big Coming Soon Text -->
+    <text y="5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="54" font-weight="900" letter-spacing="6" fill="#ffffff">COMING</text>
+    <text y="70" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="54" font-weight="900" letter-spacing="6" fill="#f43f5e">SOON</text>
+    
+    <line x1="-70" y1="115" x2="70" y2="115" stroke="rgba(255,255,255,0.2)" stroke-width="2" stroke-linecap="round"/>
+    <text y="148" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="600" letter-spacing="3" fill="#a8a29e">COLLECTION ARRIVING SOON</text>
+  </g>
+</svg>
